@@ -1,0 +1,953 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-color: rgb(231, 70, 148);
+    width: 100%;
+    height: 3rem;
+    background-image: url('images/asset\ 32.png');
+    background-position: center;
+    background-size: 20% 70vh;
+
+
+}
+
+.banner h3{
+    top: 11px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.hero{
+    width: 100%;
+}
+.container{
+    /* background-color: red; */
+    width: 79rem;
+    margin: auto;
+    height: 36rem;
+}
+nav{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+}
+.leftnav{
+    /* background-color: aqua; */
+}
+.leftnav img{
+    width: 210px;
+    margin-top: 26px;
+    cursor: pointer;
+}
+.rightnav{
+    /* background-color: yellow; */
+    width: 50rem;
+    
+}
+.rightnav ul{
+    list-style: none;
+}
+.rightnav ul li{
+    display: inline-block;
+    font-size: 24px;
+    font-family: serif;
+    /* background-color: goldenrod; */
+    position: relative;
+    top: 18px;
+    left: 53px;
+    margin-left: 26px;
+}
+.rightnav ul li a{
+    text-decoration: none;
+}
+
+button{
+    padding-top: 17px;
+    padding-right: 23px;
+    padding-bottom: 13px;
+    font-size: 18px;
+    /* padding: 17px; */
+    position: relative;
+    top: 18px;
+    left: 69px;
+    padding-left: 23px;
+    /* background: blue;; */
+}
+
+.Sign-in{
+    background-color: transparent;
+    border-color: rgb(87, 117, 146);
+    outline-color: rgb(87, 117, 146);
+}
+.Sign-up{
+    background: rgb(34, 148, 237);
+    outline: none;
+    position: relative;
+    left: 89px;
+
+}
+
+.Sign-in a{
+    text-decoration: none;
+    color: black;
+}
+.Sign-up a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.background{
+    display: flex;
+    /* background-color: green; */
+    padding-top: 76px;
+}
+
+.text-container{
+    /* background-color: red; */
+}
+
+.text-container h1{
+    font-size: 57px;
+    position: relative;
+    top: 93px;
+}
+
+.text-container p{
+    color: rgb(87, 117, 146);
+    font-size: 23px;
+    position: relative;
+    top: 115px;
+}
+
+.Getstarted{
+    border-radius: 12px;
+    left: 0px;
+    background-color: rgb(34, 148, 237);
+    position: relative;
+    top: 142px;
+}
+
+.imagebox{
+    /* background-color: red; */
+}
+
+.imagebox img{
+    width: 35rem;
+}
+.mnc{
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 69px;
+}
+.mnc p{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 31px;
+}
+.assets{
+    margin: auto;
+    /* background-color: green; */
+    width: 90%;
+}
+
+.assets img{
+    width: 97px;
+    margin-left: 68px;
+}
+.box{
+    width: 72px;
+    height: 37px;
+}
+.task{
+    height: 40px;
+    width: 128px;
+}
+.airtable{
+    height: 41px;
+}
+.features{
+    /* background-color: blue; */
+    margin-top: 7rem;
+    width: 100%;
+    height: 104vh;
+}
+.contentbox{
+    margin: auto;
+    width: 78rem;
+    /* background-color: red; */
+    
+    height: 59rem;
+}
+.contentbox img{
+    width: 40rem;
+    position: relative;
+    left: 317px;
+    filter: invert(8%);
+}
+
+.headline-box{
+    /* background-color: red; */
+    position: relative;
+    top: -35rem;
+}
+.headline-box h2{
+    text-align: center;
+    font-size: 42px;
+}
+.featuresbtn{
+    background: transparent;
+    position: relative;
+    left: 34rem;
+
+}
+.featuresbtn a{
+    color: black;
+    text-decoration: none;
+}
+
+.featurecard{
+    display: flex;
+}
+.card1{
+    width: 19rem;
+    top: -30rem;
+    left: 87px;
+    /* background-color: red; */
+    position: relative;
+    height: 19rem;
+
+}
+.card1 img{
+    width: 62px;
+    position: relative;
+    left: 119px;
+}
+
+.card1 h2{
+    text-align: center;
+    margin-top: 13px;
+}
+.card1 p{
+    font-size: 23px;
+    margin-top: 10px;
+    text-align: center;
+}
+.cardbtn{
+    background: transparent;
+}
+.cardbtn a{
+    text-decoration: none;
+    color: black;
+}
+.cardbtn :hover{
+    color: blue;
+}
+.card2{
+    top: -30rem;
+    left: 89px;
+    /* background-color: red; */
+    position: relative;
+    height: 19rem;
+    position: relative;
+    left: 186px;
+
+}
+.card2 h2{
+    text-align: center;
+    margin-top: 13px; 
+
+}
+.card2 p{
+    font-size: 23px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.card2 img{
+    width: 62px;
+    position: relative;
+    left: 119px;
+
+}
+
+.cardbtn2{
+    background: transparent;
+
+}
+
+.cardbtn2 a{
+        text-decoration: none;
+        color: black;
+}
+
+
+.card3{
+    top: -30rem;
+    left: 89px;
+    /* background-color: red; */
+    position: relative;
+    height: 19rem;
+    position: relative;
+    left: 286px;
+
+}
+.card3 img{
+    width: 62px;
+    position: relative;
+    left: 119px;
+
+}
+
+.card3 h2{
+    text-align: center;
+    margin-top: 13px; 
+
+}
+
+.card3 p{
+    font-size: 23px;
+    margin-top: 10px;
+    text-align: center;
+}
+.cardbtn3{
+    background: transparent;
+
+}
+
+.cardbtn3 a{
+        text-decoration: none;
+        color: black;
+}
+
+.featurecard2{
+    display: flex;
+    /* background-color: green; */
+    position: relative;
+    left: -216px;
+    gap: 115px;
+
+}
+
+.card4{
+    top: -30rem;
+    left: 89px;
+    /* background-color: red; */
+    position: relative;
+    height: 19rem;
+    position: relative;
+    left: 286px;
+
+}
+.card4 img{
+    width: 62px;
+    position: relative;
+    left: 119px;
+
+}
+
+.card4 h2{
+    text-align: center;
+    margin-top: 13px; 
+
+}
+
+.card4 p{
+    font-size: 23px;
+    margin-top: 10px;
+    text-align: center;
+}
+.cardbtn4{
+    background: transparent;
+
+}
+
+.cardbtn4 a{
+        text-decoration: none;
+        color: black;
+}
+
+.card5{
+    top: -30rem;
+    left: 89px;
+    /* background-color: red; */
+    position: relative;
+    height: 19rem;
+    position: relative;
+    left: 286px;
+
+}
+.card5 img{
+    width: 62px;
+    position: relative;
+    left: 119px;
+
+}
+
+.card5 h2{
+    text-align: center;
+    margin-top: 13px; 
+
+}
+
+.card5 p{
+    font-size: 23px;
+    margin-top: 10px;
+    text-align: center;
+}
+.cardbtn5{
+    background: transparent;
+
+}
+
+.cardbtn5 a{
+        text-decoration: none;
+        color: black;
+}
+
+.card6{
+    top: -30rem;
+    left: 89px;
+    /* background-color: red; */
+    position: relative;
+    height: 19rem;
+    position: relative;
+    left: 286px;
+
+}
+.card6 img{
+    width: 62px;
+    position: relative;
+    left: 119px;
+
+}
+
+.card6 h2{
+    text-align: center;
+    margin-top: 13px; 
+
+}
+
+.card6 p{
+    font-size: 23px;
+    margin-top: 10px;
+    text-align: center;
+}
+.cardbtn6{
+    background: transparent;
+
+}
+
+.cardbtn6 a{
+        text-decoration: none;
+        color: black;
+}
+
+.header-box{
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 16rem;
+}
+
+.container5{
+    width: 89%;
+    flex-basis: 30%;
+    /* background-color: green; */
+    display: flex;
+    margin: auto;
+    gap: 63px;
+}
+
+.container5 img{
+    width: 494px;
+}
+.textboxhub{
+    /* background-color: aqua; */
+    width: 41rem;
+    padding: 40px;
+    
+}
+.textboxhub h1{
+    font-size: 41px;
+    padding-top: 8px;
+
+}
+
+.textboxhub p{
+    margin-top: 13px;
+    font-size: 23px;
+    text-align: justify;
+}
+
+.textboxhub img{
+    width: 9rem;
+    margin-top: 18px;
+}
+
+
+/* .quotationmark{
+    background-color: red;
+    width: 160px;
+
+} */
+
+.quotationmark img{
+    position: relative;
+    top: 11px;
+    width: 79px;
+    left: -32px;
+}
+.paragraph2{
+    position: relative;
+    top: -46px;
+    font-weight: bold;
+    left: 0px;
+}
+
+.ceo img{
+    width: 70px;
+    position: relative;
+    top: -48px;
+}
+
+.ceo h3{
+    top: -107px;
+    left: 83px;
+    position: relative;
+}
+.ceo h5{
+    position: relative;
+    top: -6rem;
+    left: 5rem;
+
+}
+
+
+
+.header-box2{
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 4rem;
+}
+
+.container6{
+    width: 89%;
+    flex-basis: 30%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    gap: 63px;
+}
+
+.container6 img{
+    width: 494px;
+}
+.textboxhub2{
+    /* background-color: aqua; */
+    width: 41rem;
+    padding: 40px;
+    
+}
+.textboxhub2 h1{
+    font-size: 41px;
+    padding-top: 8px;
+
+}
+
+.textboxhub2 p{
+    margin-top: 13px;
+    font-size: 23px;
+    text-align: justify;
+}
+
+.textboxhub2 img{
+    width: 9rem;
+    margin-top: 18px;
+}
+
+
+/* .quotationmark{
+    background-color: red;
+    width: 160px;
+
+} */
+
+.quotationmark2 img{
+    position: relative;
+    top: 11px;
+    width: 79px;
+    left: -32px;
+}
+.paragraph3{
+    position: relative;
+    top: -46px;
+    font-weight: bold;
+    left: 0px;
+}
+
+.ceo2 img{
+    width: 70px;
+    position: relative;
+    top: -48px;
+}
+
+.ceo2 h3{
+    top: -107px;
+    left: 83px;
+    position: relative;
+}
+.ceo2 h5{
+    position: relative;
+    top: -6rem;
+    left: 5rem;
+
+}
+
+
+.header-box3{
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 4rem;
+}
+
+.container7{
+    width: 89%;
+    flex-basis: 30%;
+    /* background-color: green; */
+    display: flex;
+    /* flex-direction: row-reverse; */
+    margin: auto;
+    gap: 63px;
+}
+
+.container7 img{
+    height: 35rem;
+    width: 496px;
+}
+.textboxhub3{
+    /* background-color: aqua; */
+    width: 41rem;
+    padding: 40px;
+    
+}
+.textboxhub3 h1{
+    font-size: 41px;
+    padding-top: 8px;
+
+}
+
+.textboxhub3 p{
+    margin-top: 13px;
+    font-size: 23px;
+    text-align: justify;
+}
+
+.textboxhub3 img{
+    height: 3rem;
+    width: 10rem;
+    margin-top: 18px;
+}
+
+
+/* .quotationmark{
+    background-color: red;
+    width: 160px;
+
+} */
+
+.quotationmark3 img{
+    position: relative;
+    top: 11px;
+    width: 79px;
+    left: -32px;
+}
+.paragraph4{
+    position: relative;
+    top: -46px;
+    font-weight: bold;
+    left: 0px;
+}
+
+.ceo3 img{
+    width: 70px;
+    position: relative;
+    top: -48px;
+}
+
+.ceo3 h3{
+    top: -107px;
+    left: 83px;
+    position: relative;
+}
+.ceo3 h5{
+    position: relative;
+    top: -6rem;
+    left: 5rem;
+
+}
+
+.portfolio{
+    width: 100%;
+    margin-top: 80px;
+    /* background-color: green; */
+    height: 36rem;
+}
+.headlines-text h2{
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.cardflex{
+    position: relative;
+    top: 5rem;
+    display: flex;
+    
+    margin-top: 14rem;
+    /* justify-content: space-between; */
+    gap: 44px;
+    /* margin-left: 35px; */
+    width: 85%;
+    margin: auto;
+}
+
+/* .flexcard1{
+    width: 10rem;
+} */
+
+.flexcard1 img{
+    width: 16rem;
+    
+    
+    
+
+}
+
+.flexcard1 img:hover{
+    box-shadow: 2px 5px 8px black;
+    cursor: pointer;
+}
+
+.flexcard1 h2{
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    top: -82px;
+    text-align: center;
+}
+
+.wrapper-box{
+    background-color: rgb(24, 59, 84);
+    width: 100%;
+    display: flex;
+}
+
+
+
+.wrapper-box img{
+    width: 34rem;
+}
+
+.wrapper-box .wrapper-textbox{
+    /* background-color: red; */
+    width: 45rem;
+    padding: 5rem;
+}
+
+.wrapper-box .wrapper-textbox h1{
+    color: #fff;
+    font-size: 44px;
+}
+.wrapper-box .wrapper-textbox p{
+    color: #ffff;
+    font-size: 23px;
+    margin-top: 21px;
+    margin-bottom: 16px;
+}
+
+.wrapper-box .wrapper-textbox h3{
+    color: #fff;
+    margin-bottom: 17px;
+    font-size: 24px;
+}
+
+.wrapper-box .wrapper-textbox .listbox{
+    display: flex;
+}
+
+.wrapper-box .wrapper-textbox .listbox .left-listbox ul{
+    color: #b9cde4;
+    font-size: 18px;
+
+}
+
+.wrapper-box .wrapper-textbox .listbox .right-listbox ul{
+    color: #b9cde4;
+    font-size: 18px;
+    margin-left: 78px;
+
+} 
+.wrapper-btn{
+    background-color: #2294ed;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    left: -7px;
+    top: 29px;
+}
+
+.wrapper-btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.cubic-box{
+    background-color: #fff;
+    padding: 5rem;
+}
+
+.cubic-box h1{
+    color: #2294ed;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.cubic-box p{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 32px;
+}
+
+.cubic-box-btn{
+    background-color: #2294ed;
+    color: #fff;
+    border: none;
+    position: relative;
+    top: 42px;
+    left: 32rem;
+
+}
+
+.cubic-box-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer{
+    background-color: rgb(235, 242, 250);
+    width: 100%;
+    height: 30rem;
+}
+
+.container{
+    /* background-color: green; */
+    width: 83%;
+    
+    
+}
+
+.footer img{
+    width: 190px;
+    height: 44px;
+    position: relative;
+    top: 95px;
+}
+
+.footer-wrapperlist{
+    display: flex;
+    position: relative;
+    top: 49px;
+    left: 19rem;
+    /* background-color: red; */
+    width: 51rem;
+    height: 23rem;
+}
+
+.footer-box{
+    /* background-color: blue; */
+    width: 279px;
+    height: 329px;
+    /* margin-left: 0px; */
+    margin-right: 30px;
+    /* margin-top: 6rem;
+    margin-left: 3rem; */
+    
+}
+
+.footer-box h2{
+    text-align: center;
+}
+
+.footer-box ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 29px;
+
+}
+
+.footer-box ul li{
+    margin-bottom: 10px;
+}
+
+.footer-box ul li a{
+    color: rgb(87, 117, 146);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-box ul li a:hover{
+    color: #2294ed;
+}
+
+.final-footer{
+    background-color: #b9cde4;
+    width: 100%;
+    height: 95px;
+    display: flex;
+}
+
+.final-footer-list ul{
+    
+}
+
+.final-footer-list ul li{
+    display: inline-block;
+    margin-left: 65px;
+    position: relative;
+    top: 37px;
+    left: 100px;
+
+}
+
+.final-footer-list ul li a{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.social-media-links{
+    /* background-color: red; */
+    width: 23rem;
+    margin-left: 13rem;
+}
+
+.social-media-links img{
+    margin-left: 43px;
+    padding-top: 29px;
+    cursor: pointer;
+
+}
+
+
+
+
+    
